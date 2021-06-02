@@ -1,0 +1,13 @@
+# Data set for Bosch hackathon
+# ----------------------------
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /content/train
+val: /content/test
+test: /content/test
+
+# number of classes
+nc: 4
+
+# class names
+names: ['Furniture', 'Door', 'Small Garments', 'Cables']
